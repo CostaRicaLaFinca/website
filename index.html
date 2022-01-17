@@ -12,9 +12,10 @@
 	  <a href="#banner" class="btn subir icono"></a>
 
 	  <header class="encabezado">
+	<!--  
 		<nav class="menu">
 		  <a href="#top" class="logo">
-			<img src="http://eduholding.gutierrezedgar.com/img/logo-eduholding-full.png" alt="logo eduholding">
+			<img src="Pictures/school.jpg" alt="logo eduholding">
 		  </a>
 		  <a href="#inicio" for="ctrl_01" class="trigger icono">
 			Menú
@@ -52,6 +53,7 @@
 			</li>
 		  </ul>
 		</nav>
+		-->
 
 
 		<ul class="menu-config">
@@ -60,7 +62,7 @@
 		</ul>
 
 	  </header>
-
+	  
 	  <main class="contenido">
 
 		<!--========================
@@ -68,6 +70,8 @@
 		========================-->
 
 		<section class="seccion banner" id="banner">
+			<img src="Pictures/school.jpg" alt="logo eduholding">
+		<!--
 
 		  <input type="radio" class="ctrl esconder" id="slide1" name="slider" required="">
 		  <input type="radio" class="ctrl esconder" id="slide2" name="slider">
@@ -109,7 +113,7 @@
 			  pantallas interactivas
 			</figcaption>
 		  </figure>
-
+-->
 		</section>
 
 		<!--========================
@@ -444,52 +448,23 @@
 
 	  <footer class="pie-pagina mostrar" id="contacto">
 
-		<h3 class="titulo">CONTACTANOS</h3>
+		<h3 class="titulo">Contact Us</h3>
 
-		<form class="formulario" action="https://docs.google.com/a/ita-sa.com/forms/d/1RM87R_lC3-tW8WMySKludlBgUVV12E9wKwgt4kIfyXA/formResponse" method="POST" id="ss-form" target="_blank" onsubmit="">
+		<form class="formulario" action="emailform.php" name="message" method="POST" id="ss-form" target="_blank" onsubmit="">
 
-		  <label for="entry_2122941154">Nombre</label>
-		  <input type="text" class="entrada-texto primer" name="entry.2122941154" value="" id="entry_2122941154" required="">
+			<label for="entry_2122941154">Name</label>
+			<input type="text" class="entrada-texto primer" name="entry.2122941154" value="" id="entry_2122941154" required="">
 
-		  <label for="entry_1124318654">Email</label>
-		  <input type="text" class="entrada-texto" name="entry.1124318654" value="" id="entry_1124318654" required="">
+			<label for="entry_1124318654">Email</label>
+			<input type="text" class="entrada-texto" name="entry.1124318654" value="" id="entry_1124318654" required="">
 
-		  <label for="entry_40147722">Teléfono </label>
-		  <input type="text" class="entrada-texto" name="entry.40147722" value="" id="entry_40147722" required="">
+			<label for="entry_40147722">Phone </label>
+			<input type="text" class="entrada-texto" name="entry.40147722" value="" id="entry_40147722">
 
-		  <label for="entry_821323039">Ciudad</label>
-		  <input type="text" class="entrada-texto" name="entry.821323039" value="" id="entry_821323039" required="">
+			<label class="etiqueta-comentario" for="entry_1285486101">Comment</label>
+			<textarea class="entrada-texto comentario" name="entry.1285486101" id="entry_1285486101" required=""></textarea>
 
-		  <label class="enfoque" for="entry_1294363320">Enfoque Comercial</label>
-		  <ul class="seleccion">
-			<li>
-			  <input type="radio" name="entry.926457766" value="Colegio" id="group_926457766_1">
-			  <label for="group_926457766_1">Colegio</label>
-			</li>
-			<li>
-			  <input type="radio" name="entry.926457766" value="Universidad" id="group_926457766_2">
-			  <label for="group_926457766_2">Universidad</label>
-			</li>
-			<li>
-			  <input type="radio" name="entry.926457766" value="Empresa" id="group_926457766_3">
-			  <label for="group_926457766_3">Empresa</label>
-			</li>
-			<li>
-			  <input type="radio" name="entry.926457766" value="PYME" id="group_926457766_4">
-			  <label for="group_926457766_4"> PYME</label>
-			</li>
-
-			<li>
-			  <input class="otra-opcion" type="radio" name="entry.926457766" value="__other_option__" id="group_926457766_5">
-			  <label for="group_926457766_5">Otro:</label>
-			  <input type="text" class="entrada-texto otro" name="entry.926457766.other_option_response" value="" id="entry_926457766_other_option_response">
-			</li>
-		  </ul>
-
-		  <label class="etiqueta-comentario" for="entry_1285486101">Comentario</label>
-		  <textarea class="entrada-texto comentario" name="entry.1285486101" id="entry_1285486101" required=""></textarea>
-
-		  <input class="btn enviar" type="submit" name="submit" value="Enviar" id="ss-submit">
+			<input class="btn enviar" type="submit" name="submit" value="Submit" id="ss-submit">
 
 		  
 		</form>

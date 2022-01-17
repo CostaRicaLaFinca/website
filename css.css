@@ -378,10 +378,12 @@ BANNER
 
 .banner #slide4 ~ .slide4 {}
 
+
 .seccion.banner {
+	background: url("Pictures/school.jpg");
   width: 100%;
   min-height: 60vh;
-  background-color: #04638D;
+ /* background-color: #04638D;*/
   background-image: -webkit-linear-gradient(45deg, rgb(4, 97, 140) 0%, rgb(0, 183, 255) 100%);
   background-image: linear-gradient(45deg, rgb(4, 97, 140) 0%, rgb(0, 183, 255) 100%);
   color: white;
@@ -389,10 +391,10 @@ BANNER
   overflow: hidden;
   pointer-events: initial;
   cursor: pointer;
-  -webkit-animation: activa-elemento 3s ease forwards;
-          animation: activa-elemento 3s ease forwards;
+/*  -webkit-animation: activa-elemento 3s ease forwards;
+          animation: activa-elemento 3s ease forwards;*/
 }
-
+/*
 .banner:hover .slider,
 .banner:hover::before
 {
@@ -445,7 +447,7 @@ BANNER
 {
   opacity: 1;
   content: '=';
-}
+}*/
 
 .slider
 {
@@ -998,7 +1000,6 @@ PIE DE PAGINA
 }
 
 .pie-pagina .titulo::before {
-  content: 'todos los campos son obligatorios';
   position: absolute;
   top: 110%;
   font-size: .45em;
