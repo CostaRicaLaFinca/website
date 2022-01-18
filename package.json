@@ -1,0 +1,24 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "yes",
+  "main": "emailer.js",
+  "scripts": {
+    "start": "node ./emailer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CostaRicaLaFinca/website.git"
+  },
+  "author": "me!",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CostaRicaLaFinca/website/issues"
+  },
+  "homepage": "https://github.com/CostaRicaLaFinca/website#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "nodemailer": "^6.7.2"
+  }
+}
