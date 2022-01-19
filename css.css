@@ -17,7 +17,6 @@
   background-color: rgba(0, 0, 0, 0.01);
 }
 
-
 /* .no-mostrar */
 
 .hacer-visible:not(:checked) ~ .contenedor .no-mostrar {
@@ -578,15 +577,12 @@ QUIENES SOMOS
 }
 
 .empresa .iconos .design::before {
-  content: '\f068';
 }
 
 .empresa .iconos .integramos::before {
-  content: '\f066';
 }
 
 .empresa .iconos .equipamos::before {
-  content: '\f067';
 }
 
 .empresa .titulo {
@@ -633,7 +629,6 @@ QUIENES SOMOS
 .empresa .misionvision .parrafo {}
 
 .empresa .titulo.mision::before {
-  content: '\f05b'
 }
 
 .empresa .titulo.mision + .parrafo {
@@ -641,7 +636,6 @@ QUIENES SOMOS
 }
 
 .empresa .titulo.vision::before {
-  content: '\f06e';
 }
 
 .empresa .titulo.vision + .parrafo {}
